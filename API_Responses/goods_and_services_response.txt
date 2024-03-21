@@ -1,0 +1,674 @@
+{
+    "status": "Success",
+    "code": 0,
+    "message": "",
+    "result": {
+        "lc": [],
+        "summary": [],
+        "groups": [
+            {
+                "document_group_id": 100088,
+                "document_group_name": "CI-SET-1",
+                "document_id": "211ddaad-8376-4001-9b09-575510bcd1d1",
+                "images": [
+                    {
+                        "page_no": 1,
+                        "image_path": "99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/IMAGES/count-1_page-1_IMAGE_ROTATED.jpeg",
+                        "thumbnail_path": "99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/THUMBNAILS/count-1_page-1_IMAGE_THUMB.jpeg"
+                    }
+                ],
+                "goods_description": [
+                    {
+                        "goods_id": 86253,
+                        "item_code": null,
+                        "description": {
+                            "value": "FROZEN CHICKEN BREAST MEAT",
+                            "metadata": {
+                                "display_name": "Description",
+                                "key": "name",
+                                "is_empty": true,
+                                "confidence": 0.98,
+                                "words": [
+                                    {
+                                        "text": "FROZEN",
+                                        "text_id": 53,
+                                        "confidence": 0.98,
+                                        "left": 87.0,
+                                        "top": 572.0,
+                                        "height": 18.0,
+                                        "width": 66.0
+                                    },
+                                    {
+                                        "text": "CHICKEN",
+                                        "text_id": 54,
+                                        "confidence": 0.98,
+                                        "left": 159.0,
+                                        "top": 571.0,
+                                        "height": 20.0,
+                                        "width": 73.0
+                                    },
+                                    {
+                                        "text": "BREAST",
+                                        "text_id": 55,
+                                        "confidence": 0.98,
+                                        "left": 238.0,
+                                        "top": 571.0,
+                                        "height": 20.0,
+                                        "width": 66.0
+                                    },
+                                    {
+                                        "text": "MEAT",
+                                        "text_id": 56,
+                                        "confidence": 0.98,
+                                        "left": 308.0,
+                                        "top": 571.0,
+                                        "height": 20.0,
+                                        "width": 50.0
+                                    }
+                                ],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": "GOODS",
+                                "field_id": "7caef318-febf-4c2e-910a-a9559bd34447",
+                                "label": "Description"
+                            }
+                        },
+                        "hs_code": {
+                            "value": "",
+                            "metadata": {
+                                "display_name": "HS Code",
+                                "key": "hs_code",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": "string",
+                                "field_order": 0,
+                                "compliance_category": "GOODS",
+                                "field_id": "70ee5d00-3ee7-41cc-8ac2-2e579955389d",
+                                "label": "HS Code"
+                            }
+                        },
+                        "quantity": {
+                            "value": 57280.0,
+                            "metadata": {
+                                "display_name": "Quantity",
+                                "key": "volume",
+                                "is_empty": true,
+                                "confidence": 0.98,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "c9a92d74-e508-4854-acd5-753e12ca6840"
+                            }
+                        },
+                        "unit": {
+                            "value": "(LBS)",
+                            "metadata": {
+                                "display_name": "Quantity Unit",
+                                "key": "unit",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [
+                                    {
+                                        "confidence": 0.98,
+                                        "height": 19.0,
+                                        "left": 617.0,
+                                        "tag": "S-v_quantity_unit",
+                                        "text": "(LBS)",
+                                        "text_id": 51,
+                                        "top": 526.0,
+                                        "width": 46.0
+                                    }
+                                ],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "4767844e-aaac-4cb4-9c45-b4f402a02e4a"
+                            }
+                        },
+                        "amount": {
+                            "value": 0.0,
+                            "metadata": {
+                                "display_name": "Amount",
+                                "key": "amount",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "324c7a4b-e9da-402e-91d3-2bfa535ad79c"
+                            }
+                        },
+                        "amount_currency": {
+                            "value": " ",
+                            "metadata": {
+                                "display_name": "Amount Currency",
+                                "key": "currency",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "040abdb8-4a71-4d9f-8dff-855daa36955c"
+                            }
+                        },
+                        "unit_price": {
+                            "value": 1.16,
+                            "metadata": {
+                                "display_name": "Unit Price",
+                                "key": "unit_price",
+                                "is_empty": true,
+                                "confidence": 0.98,
+                                "words": [
+                                    {
+                                        "text": "1.160",
+                                        "text_id": 40,
+                                        "confidence": 0.98,
+                                        "left": 822.0,
+                                        "top": 575.0,
+                                        "height": 16.0,
+                                        "width": 40.0
+                                    }
+                                ],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "3e17f1a0-b803-4961-984d-63fc83426e9c"
+                            },
+                            "discrepancies": []
+                        },
+                        "unit_price_currency": {
+                            "value": " ",
+                            "metadata": {
+                                "display_name": "Unit Price Currency",
+                                "key": "unit_price_currency",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [
+                                    {
+                                        "text": "1.160",
+                                        "text_id": 40,
+                                        "confidence": 0.98,
+                                        "left": 822.0,
+                                        "top": 575.0,
+                                        "height": 16.0,
+                                        "width": 40.0
+                                    }
+                                ],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "112b3386-d9bf-4d52-900a-29dffe48fe6c"
+                            }
+                        },
+                        "net_weight": {
+                            "value": 0.0,
+                            "metadata": {
+                                "display_name": "Net Weight",
+                                "key": "net_weight",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "47f9ddfc-6287-4af9-8141-ab42fd27affe"
+                            }
+                        },
+                        "net_weight_unit": {
+                            "value": "",
+                            "metadata": {
+                                "display_name": "Net Weight Unit",
+                                "key": "net_weight_unit",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "0f623452-1ad0-453d-b2f1-6e4b59f7caf3"
+                            }
+                        },
+                        "gross_weight": {
+                            "value": 0.0,
+                            "metadata": {
+                                "display_name": "Gross Weight",
+                                "key": "gross_weight",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "96310d2a-b17d-4131-8041-1d3e1deda9c1"
+                            }
+                        },
+                        "gross_weight_unit": {
+                            "value": "",
+                            "metadata": {
+                                "display_name": "Gross Weight Unit",
+                                "key": "gross_weight_unit",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "text",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "cb6a032e-0c50-42b9-a8bf-647ae8a21a63"
+                            }
+                        },
+                        "free_samples_quantity": {
+                            "value": 0.0,
+                            "metadata": {
+                                "display_name": "Free Samples Quantity",
+                                "key": "free_samples_quantity",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "decimal",
+                                "rule_type": null,
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "93674a6a-0b0e-4203-aaa4-b03c5c57d6cc"
+                            }
+                        },
+                        "free_samples_unit": {
+                            "value": "",
+                            "metadata": {}
+                        },
+                        "purchase_order_number": {
+                            "value": [
+                                ""
+                            ],
+                            "metadata": {
+                                "display_name": "Purchase Order Number",
+                                "key": "purchase_order_number",
+                                "is_empty": true,
+                                "confidence": 0,
+                                "words": [],
+                                "auto_extracted": false,
+                                "field_type": "collection",
+                                "rule_type": "select",
+                                "field_order": 0,
+                                "compliance_category": null,
+                                "field_id": "0e75ed12-a527-4f0c-8386-129e25ccf362"
+                            }
+                        },
+                        "quantity_tolerance": {
+                            "value": "",
+                            "metadata": {}
+                        },
+                        "free_sample_unit_price": {
+                            "value": 0.0,
+                            "metadata": {}
+                        },
+                        "free_sample_unit_price_currency": {
+                            "value": "",
+                            "metadata": {}
+                        },
+                        "measurements": {
+                            "value": "",
+                            "metadata": {}
+                        },
+                        "price_tolerance": {
+                            "value": "",
+                            "metadata": {}
+                        },
+                        "shipment_start_date": {
+                            "value": null,
+                            "metadata": {}
+                        },
+                        "shipment_end_date": {
+                            "value": null,
+                            "metadata": {}
+                        }
+                    }
+                ],
+                "weight_attributes": {
+                    "gross_weight": {
+                        "value": [
+                            {
+                                "metadata": {
+                                    "display_name": "Gross weight",
+                                    "key": "gross_weight",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "quantity",
+                                    "field_order": 0,
+                                    "compliance_category": null,
+                                    "field_id": "172e2ca0-0104-4484-8c43-fc2259ba15c4"
+                                },
+                                "volume": {
+                                    "metadata": {
+                                        "display_name": "Weight",
+                                        "key": "volume",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "quantity",
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "5a5b9689-f516-40ce-9682-35cbf592fc8b",
+                                        "label": "Gross weight - Quantity"
+                                    },
+                                    "value": null
+                                },
+                                "unit": {
+                                    "metadata": {
+                                        "display_name": "Unit",
+                                        "key": "unit",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "9ab77eea-6c2b-4c0c-bc5a-71ce38baa347",
+                                        "label": "Gross weight - Unit"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "classification_id": 154662
+                    },
+                    "net_weight": {
+                        "value": [
+                            {
+                                "metadata": {
+                                    "display_name": "Net Weight",
+                                    "key": "net_weight",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "quantity",
+                                    "field_order": 0,
+                                    "compliance_category": null,
+                                    "field_id": "3ef90df4-b607-40c8-b2b2-b74e095c7077"
+                                },
+                                "volume": {
+                                    "metadata": {
+                                        "display_name": "Weight",
+                                        "key": "volume",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "quantity",
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "d1bf7906-2c23-462b-af59-d35baf367994",
+                                        "label": "Net Weight - Quantity"
+                                    },
+                                    "value": null
+                                },
+                                "unit": {
+                                    "metadata": {
+                                        "display_name": "Unit",
+                                        "key": "unit",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "f574d1a3-4079-4435-a951-1e2d65a84099",
+                                        "label": "Net Weight - Unit"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "classification_id": 154662
+                    },
+                    "total_weight": {
+                        "value": [
+                            {
+                                "metadata": {
+                                    "display_name": "Total Weight",
+                                    "key": "total_weight",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "quantity",
+                                    "field_order": 0,
+                                    "compliance_category": null,
+                                    "field_id": "cbaeac9e-abb2-4794-93a4-e2015eee69d9"
+                                },
+                                "volume": {
+                                    "metadata": {
+                                        "display_name": "Weight",
+                                        "key": "volume",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "quantity",
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "848aac3f-81db-4f8d-bdc7-afb358b0eb24",
+                                        "label": "Total Weight - Quantity"
+                                    },
+                                    "value": null
+                                },
+                                "unit": {
+                                    "metadata": {
+                                        "display_name": "Unit",
+                                        "key": "unit",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "18aa706d-a1e3-48df-bc21-f7b8a03737b8",
+                                        "label": "Total Weight - Unit"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "classification_id": 154662
+                    },
+                    "amount": {
+                        "value": [
+                            {
+                                "metadata": {
+                                    "display_name": "Net Amount",
+                                    "key": "amount",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 16.0,
+                                            "left": 943.0,
+                                            "tag": "S-v_total",
+                                            "text": "66,444.80",
+                                            "text_id": 79,
+                                            "top": 958.0,
+                                            "width": 73.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 930.0,
+                                            "tag": "S-v_currency",
+                                            "text": "(USD)",
+                                            "text_id": 45,
+                                            "top": 527.0,
+                                            "width": 45.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 35,
+                                    "compliance_category": null,
+                                    "field_id": "0e9a0388-2eb9-4327-9cb1-571e80d9b69b",
+                                    "is_mandatory": true
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 16.0,
+                                                "left": 943.0,
+                                                "tag": "S-v_total",
+                                                "text": "66,444.80",
+                                                "text_id": 79,
+                                                "top": 958.0,
+                                                "width": 73.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "c48302b1-d35d-4714-94df-ba800c06d942",
+                                        "label": "Amount - Amount"
+                                    },
+                                    "value": "66444.80"
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 16.0,
+                                                "left": 943.0,
+                                                "tag": "S-v_total",
+                                                "text": "66,444.80",
+                                                "text_id": 79,
+                                                "top": 958.0,
+                                                "width": 73.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "3796d044-5ed2-458b-85bd-e395d725f1e6",
+                                        "label": "Amount - Currency"
+                                    },
+                                    "value": "USD"
+                                }
+                            }
+                        ],
+                        "classification_id": 154662
+                    },
+                    "total_gross_amount": {
+                        "value": [
+                            {
+                                "metadata": {
+                                    "display_name": "Gross Amount",
+                                    "key": "total_gross_amount",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 135,
+                                    "compliance_category": null,
+                                    "field_id": "f135e636-dba9-4a4a-9858-7cbe0f0e3382"
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "c540eadd-34f9-4fee-aaa5-9f83fc1c411c",
+                                        "label": "Total Gross Amount - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "5ce85c91-bdf1-40a9-ab4b-096d24e0b15d",
+                                        "label": "Total Gross Amount - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "classification_id": 154662
+                    }
+                }
+            }
+        ]
+    }
+}

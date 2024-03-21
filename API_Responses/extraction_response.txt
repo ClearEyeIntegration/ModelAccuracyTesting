@@ -1,0 +1,2990 @@
+{
+    "status": "Success",
+    "code": 0,
+    "message": "All the extraction result for the specified transaction is fetched successfully",
+    "result": [
+        {
+            "document_id": "211ddaad-8376-4001-9b09-575510bcd1d1",
+            "document_file_name": "CI_SET1JP.pdf",
+            "reference_number": "CI-SET-1",
+            "bill_group_id": 100088,
+            "document_type_id": 4,
+            "document_type_key": "commercial_invoice",
+            "document_type_name": "Commercial Invoice",
+            "page_urls": [
+                "trade-finance/99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/211ddaad-8376-4001-9b09-575510bcd1d1_ORIGINAL.pdf"
+            ],
+            "file_path": "99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/211ddaad-8376-4001-9b09-575510bcd1d1_ORIGINAL.pdf",
+            "extract": [
+                {
+                    "page_number": 1,
+                    "extracts": {
+                        "metadata": {
+                            "display_name": "Commercial Invoice",
+                            "key": "commercial_invoice",
+                            "short_key": "CI",
+                            "document_id": null,
+                            "document_name": null,
+                            "document_type_id": 4,
+                            "auto_extracted": false,
+                            "document_group": 3
+                        },
+                        "document_title": [
+                            {
+                                "metadata": {
+                                    "display_name": "Document title",
+                                    "key": "document_title",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 34.0,
+                                            "left": 351.0,
+                                            "tag": "B-v_title",
+                                            "text": "COMMERCIAL",
+                                            "text_id": 12,
+                                            "top": 330.0,
+                                            "width": 248.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 36.0,
+                                            "left": 608.0,
+                                            "tag": "E-v_title",
+                                            "text": "INVOICE",
+                                            "text_id": 13,
+                                            "top": 328.0,
+                                            "width": 150.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "text",
+                                    "rule_type": "string",
+                                    "field_order": 3,
+                                    "compliance_category": null,
+                                    "field_id": "37beea2c-7607-456d-afa8-7fa40bd8e336",
+                                    "is_mandatory": true
+                                },
+                                "value": "COMMERCIAL INVOICE"
+                            }
+                        ],
+                        "applicant": [
+                            {
+                                "metadata": {
+                                    "display_name": "Applicant",
+                                    "key": "applicant",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 164.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "DAN",
+                                            "text_id": 27,
+                                            "top": 393.0,
+                                            "width": 33.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 202.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "SHIN",
+                                            "text_id": 28,
+                                            "top": 393.0,
+                                            "width": 39.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 245.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "ENTERPRISE",
+                                            "text_id": 29,
+                                            "top": 393.0,
+                                            "width": 107.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 356.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "CO",
+                                            "text_id": 30,
+                                            "top": 394.0,
+                                            "width": 24.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 384.0,
+                                            "tag": "I-v_applicant",
+                                            "text": ".,",
+                                            "text_id": 31,
+                                            "top": 394.0,
+                                            "width": 8.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 396.0,
+                                            "tag": "E-v_applicant",
+                                            "text": "LTD.",
+                                            "text_id": 32,
+                                            "top": 394.0,
+                                            "width": 39.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 21.0,
+                                            "left": 164.0,
+                                            "tag": "B-v_applicant",
+                                            "text": "NO.",
+                                            "text_id": 15,
+                                            "top": 415.0,
+                                            "width": 29.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 197.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "1",
+                                            "text_id": 16,
+                                            "top": 415.0,
+                                            "width": 8.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 209.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "ALLEY",
+                                            "text_id": 17,
+                                            "top": 415.0,
+                                            "width": 54.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 267.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "1,",
+                                            "text_id": 18,
+                                            "top": 415.0,
+                                            "width": 13.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 284.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "LANE",
+                                            "text_id": 19,
+                                            "top": 415.0,
+                                            "width": 46.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 334.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "366,",
+                                            "text_id": 20,
+                                            "top": 415.0,
+                                            "width": 33.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 371.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "PING-YI",
+                                            "text_id": 21,
+                                            "top": 416.0,
+                                            "width": 61.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 436.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "RD.",
+                                            "text_id": 22,
+                                            "top": 416.0,
+                                            "width": 33.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 164.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "TAIPING",
+                                            "text_id": 23,
+                                            "top": 436.0,
+                                            "width": 64.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 232.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "CITY,",
+                                            "text_id": 24,
+                                            "top": 437.0,
+                                            "width": 44.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 280.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "TAICHUNG,",
+                                            "text_id": 25,
+                                            "top": 437.0,
+                                            "width": 93.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 377.0,
+                                            "tag": "I-v_applicant",
+                                            "text": "TAIWAN",
+                                            "text_id": 26,
+                                            "top": 438.0,
+                                            "width": 65.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "name_address",
+                                    "field_order": 5,
+                                    "compliance_category": "CORP",
+                                    "field_id": "39d0f419-e30a-479f-a9fd-977f3c519451",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 164.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "DAN",
+                                                "text_id": 27,
+                                                "top": 393.0,
+                                                "width": 33.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 202.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "SHIN",
+                                                "text_id": 28,
+                                                "top": 393.0,
+                                                "width": 39.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 245.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "ENTERPRISE",
+                                                "text_id": 29,
+                                                "top": 393.0,
+                                                "width": 107.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 356.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "CO",
+                                                "text_id": 30,
+                                                "top": 394.0,
+                                                "width": 24.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 384.0,
+                                                "tag": "I-v_applicant",
+                                                "text": ".,",
+                                                "text_id": 31,
+                                                "top": 394.0,
+                                                "width": 8.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 396.0,
+                                                "tag": "E-v_applicant",
+                                                "text": "LTD.",
+                                                "text_id": 32,
+                                                "top": 394.0,
+                                                "width": 39.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "CORP",
+                                        "field_id": "9e5530be-c479-4af9-8557-31977a279805",
+                                        "label": "Applicant - Name"
+                                    },
+                                    "value": "DAN SHIN ENTERPRISE CO ., LTD."
+                                },
+                                "address": {
+                                    "metadata": {
+                                        "display_name": "Address",
+                                        "key": "address",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 197.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "1",
+                                                "text_id": 16,
+                                                "top": 415.0,
+                                                "width": 8.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 209.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "ALLEY",
+                                                "text_id": 17,
+                                                "top": 415.0,
+                                                "width": 54.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 267.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "1,",
+                                                "text_id": 18,
+                                                "top": 415.0,
+                                                "width": 13.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 284.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "LANE",
+                                                "text_id": 19,
+                                                "top": 415.0,
+                                                "width": 46.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 334.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "366,",
+                                                "text_id": 20,
+                                                "top": 415.0,
+                                                "width": 33.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 371.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "PING-YI",
+                                                "text_id": 21,
+                                                "top": 416.0,
+                                                "width": 61.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 436.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "RD.",
+                                                "text_id": 22,
+                                                "top": 416.0,
+                                                "width": 33.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 164.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "TAIPING",
+                                                "text_id": 23,
+                                                "top": 436.0,
+                                                "width": 64.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 232.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "CITY,",
+                                                "text_id": 24,
+                                                "top": 437.0,
+                                                "width": 44.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 280.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "TAICHUNG,",
+                                                "text_id": 25,
+                                                "top": 437.0,
+                                                "width": 93.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "45f49d46-ee25-49c9-89f8-39ea36f0c73b",
+                                        "label": "Applicant - Address"
+                                    },
+                                    "value": "1 ALLEY 1, LANE 366, PING-YI RD TAIPING CITY, TAICHUNG,"
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 377.0,
+                                                "tag": "I-v_applicant",
+                                                "text": "TAIWAN",
+                                                "text_id": 26,
+                                                "top": 438.0,
+                                                "width": 65.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "757edc4d-d06c-47b5-9ba3-ad4012a32190",
+                                        "label": "Applicant - Country"
+                                    },
+                                    "value": "Taiwan"
+                                }
+                            }
+                        ],
+                        "beneficiary": [
+                            {
+                                "metadata": {
+                                    "display_name": "Beneficiary",
+                                    "key": "beneficiary",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 34.0,
+                                            "left": 94.0,
+                                            "tag": "B-v_beneficiary_header",
+                                            "text": "AJC",
+                                            "text_id": 1,
+                                            "top": 150.0,
+                                            "width": 62.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 35.0,
+                                            "left": 170.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "INTERNATIONAL,",
+                                            "text_id": 2,
+                                            "top": 149.0,
+                                            "width": 319.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 37.0,
+                                            "left": 495.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "INC.",
+                                            "text_id": 3,
+                                            "top": 148.0,
+                                            "width": 79.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 91.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "10/F",
+                                            "text_id": 4,
+                                            "top": 192.0,
+                                            "width": 26.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 120.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": ".,",
+                                            "text_id": 5,
+                                            "top": 192.0,
+                                            "width": 10.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 134.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "88",
+                                            "text_id": 6,
+                                            "top": 192.0,
+                                            "width": 19.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 157.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "GLOUCESTER",
+                                            "text_id": 7,
+                                            "top": 192.0,
+                                            "width": 113.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 276.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "ROAD,",
+                                            "text_id": 8,
+                                            "top": 191.0,
+                                            "width": 58.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 88.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "WANCHAI,",
+                                            "text_id": 9,
+                                            "top": 213.0,
+                                            "width": 84.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 175.0,
+                                            "tag": "I-v_beneficiary_header",
+                                            "text": "HONG",
+                                            "text_id": 10,
+                                            "top": 214.0,
+                                            "width": 50.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 229.0,
+                                            "tag": "E-v_beneficiary_header",
+                                            "text": "KONG.",
+                                            "text_id": 11,
+                                            "top": 214.0,
+                                            "width": 59.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "name_address",
+                                    "field_order": 10,
+                                    "compliance_category": "CORP",
+                                    "field_id": "c868ecf0-c721-4890-bbeb-1006e69d2b86",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 34.0,
+                                                "left": 94.0,
+                                                "tag": "B-v_beneficiary_header",
+                                                "text": "AJC",
+                                                "text_id": 1,
+                                                "top": 150.0,
+                                                "width": 62.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 35.0,
+                                                "left": 170.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "INTERNATIONAL,",
+                                                "text_id": 2,
+                                                "top": 149.0,
+                                                "width": 319.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 37.0,
+                                                "left": 495.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "INC.",
+                                                "text_id": 3,
+                                                "top": 148.0,
+                                                "width": 79.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "CORP",
+                                        "field_id": "f4bdf4f9-e1cd-4d51-bf91-64d77104bc1c",
+                                        "label": "Beneficiary - Name"
+                                    },
+                                    "value": "AJC INTERNATIONAL, INC."
+                                },
+                                "address": {
+                                    "metadata": {
+                                        "display_name": "Address",
+                                        "key": "address",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 18.0,
+                                                "left": 91.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "10/F",
+                                                "text_id": 4,
+                                                "top": 192.0,
+                                                "width": 26.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 120.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": ".,",
+                                                "text_id": 5,
+                                                "top": 192.0,
+                                                "width": 10.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 134.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "88",
+                                                "text_id": 6,
+                                                "top": 192.0,
+                                                "width": 19.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 157.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "GLOUCESTER",
+                                                "text_id": 7,
+                                                "top": 192.0,
+                                                "width": 113.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 20.0,
+                                                "left": 276.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "ROAD,",
+                                                "text_id": 8,
+                                                "top": 191.0,
+                                                "width": 58.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 88.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "WANCHAI,",
+                                                "text_id": 9,
+                                                "top": 213.0,
+                                                "width": 84.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "79470d08-eb80-4bd0-bf21-033a7d7b44c0",
+                                        "label": "Beneficiary - Address"
+                                    },
+                                    "value": "10/F , 88 GLOUCESTER ROAD, WANCHAI,"
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 175.0,
+                                                "tag": "I-v_beneficiary_header",
+                                                "text": "HONG",
+                                                "text_id": 10,
+                                                "top": 214.0,
+                                                "width": 50.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 229.0,
+                                                "tag": "E-v_beneficiary_header",
+                                                "text": "KONG.",
+                                                "text_id": 11,
+                                                "top": 214.0,
+                                                "width": 59.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "b907fcfe-28ad-411c-a83f-615223983d02",
+                                        "label": "Beneficiary - Country"
+                                    },
+                                    "value": "Hong Kong"
+                                },
+                                "reference_number": {
+                                    "metadata": {
+                                        "display_name": "Reference Number",
+                                        "key": "reference_number",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 20,
+                                        "compliance_category": null,
+                                        "field_id": "4ea6d441-c7b1-4d36-b5aa-d147c7c997ba"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "invoice_number": [
+                            {
+                                "metadata": {
+                                    "display_name": "Invoice number",
+                                    "key": "invoice_number",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 875.0,
+                                            "tag": "S-v_invno",
+                                            "text": "SC2850575",
+                                            "text_id": 42,
+                                            "top": 440.0,
+                                            "width": 89.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "text",
+                                    "rule_type": "string",
+                                    "field_order": 20,
+                                    "compliance_category": null,
+                                    "field_id": "a3149225-93ac-4c69-a74f-5017d84cd23e",
+                                    "is_mandatory": true
+                                },
+                                "value": "SC2850575"
+                            }
+                        ],
+                        "lc_number": [
+                            {
+                                "metadata": {
+                                    "display_name": "LC Number",
+                                    "key": "lc_number",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 151.0,
+                                            "tag": "S-v_lc_no",
+                                            "text": "F2AAAC20618/1CH",
+                                            "text_id": 72,
+                                            "top": 709.0,
+                                            "width": 151.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "text",
+                                    "rule_type": "string",
+                                    "field_order": 15,
+                                    "compliance_category": null,
+                                    "field_id": "33f96c5c-701a-46e3-a454-0b0531414efb",
+                                    "is_mandatory": true,
+                                    "is_valid": false
+                                },
+                                "value": "F2AAAC20618/1CH"
+                            }
+                        ],
+                        "lc_issuance_date": [
+                            {
+                                "metadata": {
+                                    "display_name": "LC issuance date",
+                                    "key": "lc_issuance_date",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "datetime",
+                                    "rule_type": "date",
+                                    "field_order": 145,
+                                    "compliance_category": null,
+                                    "field_id": "e4973558-bca8-4c66-aee9-4c0d64d68355",
+                                    "is_mandatory": true
+                                },
+                                "value": null
+                            }
+                        ],
+                        "date_of_issue": [
+                            {
+                                "metadata": {
+                                    "display_name": "Date of issue",
+                                    "key": "date_of_issue",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 874.0,
+                                            "tag": "S-v_invdate",
+                                            "text": "6-Feb-2023",
+                                            "text_id": 41,
+                                            "top": 396.0,
+                                            "width": 89.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "datetime",
+                                    "rule_type": "date",
+                                    "field_order": 25,
+                                    "compliance_category": null,
+                                    "field_id": "d29fbcbc-46bf-4c33-9c06-08c644caecde",
+                                    "is_mandatory": true
+                                },
+                                "value": "2023-02-06"
+                            }
+                        ],
+                        "amount": [
+                            {
+                                "metadata": {
+                                    "display_name": "Net Amount",
+                                    "key": "amount",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 16.0,
+                                            "left": 943.0,
+                                            "tag": "S-v_total",
+                                            "text": "66,444.80",
+                                            "text_id": 79,
+                                            "top": 958.0,
+                                            "width": 73.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 930.0,
+                                            "tag": "S-v_currency",
+                                            "text": "(USD)",
+                                            "text_id": 45,
+                                            "top": 527.0,
+                                            "width": 45.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 35,
+                                    "compliance_category": null,
+                                    "field_id": "0e9a0388-2eb9-4327-9cb1-571e80d9b69b",
+                                    "is_mandatory": true
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 16.0,
+                                                "left": 943.0,
+                                                "tag": "S-v_total",
+                                                "text": "66,444.80",
+                                                "text_id": 79,
+                                                "top": 958.0,
+                                                "width": 73.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "c48302b1-d35d-4714-94df-ba800c06d942",
+                                        "label": "Amount - Amount"
+                                    },
+                                    "value": "66444.80"
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 16.0,
+                                                "left": 943.0,
+                                                "tag": "S-v_total",
+                                                "text": "66,444.80",
+                                                "text_id": 79,
+                                                "top": 958.0,
+                                                "width": 73.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "3796d044-5ed2-458b-85bd-e395d725f1e6",
+                                        "label": "Amount - Currency"
+                                    },
+                                    "value": "USD"
+                                }
+                            }
+                        ],
+                        "incoterm": [
+                            {
+                                "metadata": {
+                                    "display_name": "Incoterm",
+                                    "key": "incoterm",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 20.0,
+                                            "left": 88.0,
+                                            "tag": "B-v_incoterm_value",
+                                            "text": "CIP",
+                                            "text_id": 67,
+                                            "top": 642.0,
+                                            "width": 26.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 117.0,
+                                            "tag": "I-v_incoterm_value",
+                                            "text": "KAOHSIUNG,",
+                                            "text_id": 68,
+                                            "top": 642.0,
+                                            "width": 107.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 17.0,
+                                            "left": 228.0,
+                                            "tag": "E-v_incoterm_value",
+                                            "text": "TAIWAN",
+                                            "text_id": 69,
+                                            "top": 643.0,
+                                            "width": 65.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "collection",
+                                    "rule_type": "incoterm",
+                                    "field_order": 75,
+                                    "compliance_category": "LOC",
+                                    "field_id": "c3fbde24-e3b6-4e2f-a157-4460323df30c",
+                                    "label": "Incoterm",
+                                    "is_mandatory": true
+                                },
+                                "value": [
+                                    "CIP KAOHSIUNG  TAIWAN"
+                                ]
+                            }
+                        ],
+                        "signatory_company": [
+                            {
+                                "metadata": {
+                                    "display_name": "Signatory Company",
+                                    "key": "signatory_company",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 716.0,
+                                            "tag": "B-v_signatory_company",
+                                            "text": "AJC",
+                                            "text_id": 86,
+                                            "top": 1225.0,
+                                            "width": 31.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 751.0,
+                                            "tag": "I-v_signatory_company",
+                                            "text": "INTERNATIONAL,",
+                                            "text_id": 87,
+                                            "top": 1225.0,
+                                            "width": 139.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 894.0,
+                                            "tag": "E-v_signatory_company",
+                                            "text": "INC.",
+                                            "text_id": 88,
+                                            "top": 1225.0,
+                                            "width": 36.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "text",
+                                    "rule_type": "string",
+                                    "field_order": 90,
+                                    "compliance_category": "CORP",
+                                    "field_id": "3d76590f-434c-4f2c-be2f-4f829aea5920",
+                                    "label": "Signatory Company"
+                                },
+                                "value": "AJC INTERNATIONAL, INC"
+                            }
+                        ],
+                        "issuer": [
+                            {
+                                "metadata": {
+                                    "display_name": "Issuer",
+                                    "key": "issuer",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 716.0,
+                                            "tag": "B-v_signatory_company",
+                                            "text": "AJC",
+                                            "text_id": 86,
+                                            "top": 1225.0,
+                                            "width": 31.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 18.0,
+                                            "left": 751.0,
+                                            "tag": "I-v_signatory_company",
+                                            "text": "INTERNATIONAL,",
+                                            "text_id": 87,
+                                            "top": 1225.0,
+                                            "width": 139.0
+                                        },
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 19.0,
+                                            "left": 894.0,
+                                            "tag": "E-v_signatory_company",
+                                            "text": "INC.",
+                                            "text_id": 88,
+                                            "top": 1225.0,
+                                            "width": 36.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "name_address",
+                                    "field_order": 12,
+                                    "compliance_category": "CORP",
+                                    "field_id": "499bf8b2-720e-464f-bf8e-87da3b94441b",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 18.0,
+                                                "left": 716.0,
+                                                "tag": "B-v_signatory_company",
+                                                "text": "AJC",
+                                                "text_id": 86,
+                                                "top": 1225.0,
+                                                "width": 31.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 18.0,
+                                                "left": 751.0,
+                                                "tag": "I-v_signatory_company",
+                                                "text": "INTERNATIONAL,",
+                                                "text_id": 87,
+                                                "top": 1225.0,
+                                                "width": 139.0
+                                            },
+                                            {
+                                                "confidence": 0.98,
+                                                "height": 19.0,
+                                                "left": 894.0,
+                                                "tag": "E-v_signatory_company",
+                                                "text": "INC.",
+                                                "text_id": 88,
+                                                "top": 1225.0,
+                                                "width": 36.0
+                                            }
+                                        ],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "CORP",
+                                        "field_id": "a5454d2c-11ba-48b5-84c6-094bcd675104",
+                                        "label": "Issuer - Name"
+                                    },
+                                    "value": "AJC INTERNATIONAL, INC"
+                                },
+                                "address": {
+                                    "metadata": {
+                                        "display_name": "Address",
+                                        "key": "address",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "62d91715-9e3a-44e6-84b4-5427c3e2c96e",
+                                        "label": "Issuer - Address"
+                                    },
+                                    "value": ""
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0.98,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "a7c46e07-f88a-40c8-b565-fb3c4120aa95",
+                                        "label": "Issuer - Country"
+                                    },
+                                    "value": ""
+                                }
+                            }
+                        ],
+                        "airport_of_departure": [
+                            {
+                                "metadata": {
+                                    "display_name": "Airport of departure",
+                                    "key": "airport_of_departure",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "airport",
+                                    "field_order": 95,
+                                    "compliance_category": "PORT",
+                                    "field_id": "158e673e-f5b6-4015-b6c6-e3967023a80f",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "PORT",
+                                        "field_id": "75a3a81c-0b89-4a0b-be4b-0c64cbef4971",
+                                        "label": "Airport of departure - Name"
+                                    },
+                                    "value": null
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "2ad4b053-6690-423c-8b57-0cc32c520ab4",
+                                        "label": "Airport of departure - Country"
+                                    },
+                                    "value": null
+                                },
+                                "iata_code": {
+                                    "metadata": {
+                                        "display_name": "IATA code",
+                                        "key": "iata_code",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "80d2ef3c-7fcf-4a15-875f-1b17bb87f58e",
+                                        "label": "Airport of departure - IATA Code"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "airport_of_arrival": [
+                            {
+                                "metadata": {
+                                    "display_name": "Airport of arrival",
+                                    "key": "airport_of_arrival",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "airport",
+                                    "field_order": 100,
+                                    "compliance_category": "PORT",
+                                    "field_id": "0d429d7c-9fb7-4d7f-b3a2-8779faf1174d",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "PORT",
+                                        "field_id": "0cb0972d-b1c1-48e7-9153-6b547bdf97c5",
+                                        "label": "Airport of arrival - Name"
+                                    },
+                                    "value": null
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "f7c3fed1-a99f-42db-9cc0-f5fc5d84b9dd",
+                                        "label": "Airport of arrival - Country"
+                                    },
+                                    "value": null
+                                },
+                                "iata_code": {
+                                    "metadata": {
+                                        "display_name": "IATA code",
+                                        "key": "iata_code",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "c906b133-871b-4afb-b5df-a823cc6070fa",
+                                        "label": "Airport of arrival - IATA Code"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "country_of_origin": [
+                            {
+                                "metadata": {
+                                    "display_name": "Country of origin",
+                                    "key": "country_of_origin",
+                                    "is_empty": false,
+                                    "confidence": 0.98,
+                                    "words": [
+                                        {
+                                            "confidence": 0.98,
+                                            "height": 17.0,
+                                            "left": 154.0,
+                                            "tag": "S-v_country_of_origin",
+                                            "text": "USA",
+                                            "text_id": 66,
+                                            "top": 620.0,
+                                            "width": 36.0
+                                        }
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "text",
+                                    "rule_type": "country",
+                                    "field_order": 110,
+                                    "compliance_category": "LOC",
+                                    "field_id": "c063cf96-7d36-4008-b9ba-3ea3362cd2d4",
+                                    "label": "Country of origin",
+                                    "is_mandatory": true
+                                },
+                                "value": "United States"
+                            }
+                        ],
+                        "port_of_loading": [
+                            {
+                                "metadata": {
+                                    "display_name": "Port of Loading",
+                                    "key": "port_of_loading",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "seaport",
+                                    "field_order": 115,
+                                    "compliance_category": "PORT",
+                                    "field_id": "62c6eb8a-252b-4b3e-8acb-0e2d8f52506e",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Port of Loading",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "PORT",
+                                        "field_id": "5a9b251d-b26b-4d79-81bc-05aeb2dfa92c",
+                                        "label": "Port of Loading - Name"
+                                    },
+                                    "value": null
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "fdec325a-9adb-488a-999b-f9ea0b3d6dde",
+                                        "label": "Port of Loading - Country"
+                                    },
+                                    "value": null
+                                },
+                                "is_intended": {
+                                    "metadata": {
+                                        "display_name": "Intended",
+                                        "key": "is_intended",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "boolean",
+                                        "rule_type": null,
+                                        "field_order": 0,
+                                        "compliance_category": null,
+                                        "field_id": "bd1e9675-4eb7-449f-bf81-bf0f73714bff",
+                                        "options": [
+                                            "Yes",
+                                            "No"
+                                        ]
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "port_of_discharge": [
+                            {
+                                "metadata": {
+                                    "display_name": "Port of Discharge",
+                                    "key": "port_of_discharge",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "object",
+                                    "rule_type": "seaport",
+                                    "field_order": 120,
+                                    "compliance_category": "PORT",
+                                    "field_id": "be0df16a-809a-446a-9f8b-687bda919a10",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Port of Discharge",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "PORT",
+                                        "field_id": "2acbbdc8-adfe-449e-a9af-93dbce45a601",
+                                        "label": "Port of Discharge - Name"
+                                    },
+                                    "value": null
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "6a4820c0-e634-463a-831c-84f9b99bed19",
+                                        "label": "Port of Discharge - Country"
+                                    },
+                                    "value": null
+                                },
+                                "is_intended": {
+                                    "metadata": {
+                                        "display_name": "Intended",
+                                        "key": "is_intended",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "boolean",
+                                        "rule_type": null,
+                                        "field_order": 0,
+                                        "compliance_category": null,
+                                        "field_id": "5585d30e-5f24-425a-bf56-21f14a620037",
+                                        "options": [
+                                            "Yes",
+                                            "No"
+                                        ]
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "vessel": [
+                            {
+                                "metadata": {
+                                    "display_name": "Vessel",
+                                    "key": "vessel",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": null,
+                                    "rule_type": "vessel",
+                                    "field_order": 125,
+                                    "compliance_category": "VESS",
+                                    "field_id": "88cda0db-cd98-47fb-8da3-2e91c189f0d7",
+                                    "is_vessel": true,
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 0,
+                                        "compliance_category": "VESS",
+                                        "field_id": "408f6a1e-2d3e-4af8-9696-b975e5ce1a60",
+                                        "is_vessel": true,
+                                        "label": "Vessel"
+                                    },
+                                    "value": null
+                                },
+                                "is_intended": {
+                                    "metadata": {
+                                        "display_name": "Intended",
+                                        "key": "is_intended",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "boolean",
+                                        "rule_type": null,
+                                        "field_order": 0,
+                                        "compliance_category": null,
+                                        "field_id": "e3917d2d-2119-4a3d-9759-57d8887f5f3e",
+                                        "options": [
+                                            "Yes",
+                                            "No"
+                                        ]
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "language_of_document": [
+                            {
+                                "metadata": {
+                                    "display_name": "Language of document",
+                                    "key": "language_of_document",
+                                    "is_empty": false,
+                                    "confidence": 0.82,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": null,
+                                    "rule_type": "language",
+                                    "field_order": 150,
+                                    "compliance_category": null,
+                                    "field_id": "41bd7b84-be7b-49c9-81c9-321e693bb4ca",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0.82,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "a2b11b23-62d0-42b1-b358-00330c3dffb3"
+                                    },
+                                    "value": "English"
+                                },
+                                "code": {
+                                    "metadata": {
+                                        "display_name": "Code",
+                                        "key": "code",
+                                        "is_empty": true,
+                                        "confidence": 0.82,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "a34242ea-8d6e-4717-a6a6-759ea7ce3d86"
+                                    },
+                                    "value": "en"
+                                }
+                            }
+                        ],
+                        "contract_number": [
+                            {
+                                "metadata": {
+                                    "display_name": "Contract Number",
+                                    "key": "contract_number",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "collection",
+                                    "rule_type": "select",
+                                    "field_order": 146,
+                                    "compliance_category": null,
+                                    "field_id": "1fc1b622-2e98-4bba-aafe-a2d2b6fd3dbd",
+                                    "is_mandatory": true
+                                },
+                                "value": null
+                            }
+                        ],
+                        "purchase_order_number": [
+                            {
+                                "metadata": {
+                                    "display_name": "Purchase Order Number",
+                                    "key": "purchase_order_number",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": true,
+                                    "field_type": "collection",
+                                    "rule_type": "select",
+                                    "field_order": 147,
+                                    "compliance_category": null,
+                                    "field_id": "2ab0f181-4220-4b62-98ac-575938da3fad",
+                                    "is_mandatory": true
+                                },
+                                "value": null
+                            }
+                        ],
+                        "seal": [
+                            {
+                                "metadata": {
+                                    "display_name": "Seal",
+                                    "key": "seal",
+                                    "is_empty": false,
+                                    "confidence": 0.95,
+                                    "words": [
+                                        [
+                                            714,
+                                            1188,
+                                            947,
+                                            1376
+                                        ]
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "boolean",
+                                    "rule_type": "boolean",
+                                    "field_order": 140,
+                                    "compliance_category": null,
+                                    "field_id": "e90786a4-96b9-4d98-9fc7-c39ec94f71ed",
+                                    "options": [
+                                        "Yes",
+                                        "No"
+                                    ],
+                                    "is_mandatory": true
+                                },
+                                "value": true
+                            }
+                        ],
+                        "signature": [
+                            {
+                                "metadata": {
+                                    "display_name": "Signature",
+                                    "key": "signature",
+                                    "is_empty": false,
+                                    "confidence": 0.93,
+                                    "words": [
+                                        [
+                                            861,
+                                            1271,
+                                            912,
+                                            1382
+                                        ]
+                                    ],
+                                    "auto_extracted": true,
+                                    "field_type": "boolean",
+                                    "rule_type": "boolean",
+                                    "field_order": 135,
+                                    "compliance_category": null,
+                                    "field_id": "19e365cb-4620-476f-8b28-fdf6b729aca2",
+                                    "options": [
+                                        "Yes",
+                                        "No"
+                                    ],
+                                    "is_mandatory": true
+                                },
+                                "value": true
+                            }
+                        ]
+                    },
+                    "manual_extracts": {
+                        "metadata": {
+                            "display_name": "Commercial Invoice",
+                            "key": "commercial_invoice",
+                            "short_key": "CI",
+                            "document_id": null,
+                            "document_name": null,
+                            "document_type_id": 4,
+                            "auto_extracted": false,
+                            "document_group": 3
+                        },
+                        "amount_in_words": [
+                            {
+                                "metadata": {
+                                    "display_name": "Amount In Words",
+                                    "key": "amount_in_words",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": null,
+                                    "rule_type": "amount",
+                                    "field_order": 37,
+                                    "compliance_category": null,
+                                    "field_id": "1c33aee1-f42d-4858-bc43-0bc818f6c8aa",
+                                    "is_mandatory": true
+                                },
+                                "total_in_words": {
+                                    "metadata": {
+                                        "display_name": "Total In Words",
+                                        "key": "total_in_words",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "1b8edbd7-0b96-43ee-a720-73756f5b4022",
+                                        "label": "Amount In Words - Amount in words"
+                                    },
+                                    "value": null
+                                },
+                                "currency_in_words": {
+                                    "metadata": {
+                                        "display_name": "Currency In Words",
+                                        "key": "Currency In Words",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "1945d6e3-ffc8-4090-89bb-5f90741107aa",
+                                        "label": "Amount In Words - Currency in words"
+                                    },
+                                    "value": null
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": null,
+                                        "field_order": 20,
+                                        "compliance_category": null,
+                                        "field_id": "7cc964d0-2478-4bf6-912c-eae3edadc718",
+                                        "label": "Amount In Words - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": null,
+                                        "field_id": "4460c22b-e501-4266-a140-7071c51e248c",
+                                        "label": "Amount In Words - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "cif_amount": [
+                            {
+                                "metadata": {
+                                    "display_name": "CIF Amount",
+                                    "key": "cif_amount",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 47,
+                                    "compliance_category": null,
+                                    "field_id": "0570ae96-83dd-4cc7-b08a-db06cf3acecf"
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "6e7ac502-6351-423f-a978-082409b47f48",
+                                        "label": "CIF Amount - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "a97f8f08-08ae-4f40-bc0d-130100d7d384",
+                                        "label": "CIF Amount - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "cip_amount": [
+                            {
+                                "metadata": {
+                                    "display_name": "CIP Amount",
+                                    "key": "cip_amount",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 48,
+                                    "compliance_category": null,
+                                    "field_id": "aa3a4af3-839a-4286-bada-3c06f99b58d3"
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "014b4683-8f9d-4644-ad03-42e9c7580b03",
+                                        "label": "CIP Amount - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "9d9937e4-e584-46f2-bcae-7a7c1e35576e",
+                                        "label": "CIP Amount - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "referenced_document": [
+                            {
+                                "metadata": {
+                                    "display_name": "Referenced Document",
+                                    "key": "referenced_document",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "options",
+                                    "rule_type": "string",
+                                    "field_order": 131,
+                                    "compliance_category": null,
+                                    "field_id": "68e3d054-cd69-434a-86d1-c4b49b22160a",
+                                    "options": [
+                                        {
+                                            "key": "Airway Bill",
+                                            "value": "Airway Bill"
+                                        },
+                                        {
+                                            "key": "Acceptance Advice",
+                                            "value": "Acceptance Advice"
+                                        },
+                                        {
+                                            "key": "AML Checklist",
+                                            "value": "AML Checklist"
+                                        },
+                                        {
+                                            "key": "ARIMP - Application Form",
+                                            "value": "ARIMP - Application Form"
+                                        },
+                                        {
+                                            "key": "Beneficiary Certificate",
+                                            "value": "Beneficiary Certificate"
+                                        },
+                                        {
+                                            "key": "Bene Consent",
+                                            "value": "Bene Consent"
+                                        },
+                                        {
+                                            "key": "Bill of Exchange",
+                                            "value": "Bill of Exchange"
+                                        },
+                                        {
+                                            "key": "Bill of Lading",
+                                            "value": "Bill of Lading"
+                                        },
+                                        {
+                                            "key": "Back Scan Payment Instruction",
+                                            "value": "Back Scan Payment Instruction"
+                                        },
+                                        {
+                                            "key": "Certificate of Analysis",
+                                            "value": "Certificate of Analysis"
+                                        },
+                                        {
+                                            "key": "Certificate of Conformity",
+                                            "value": "Certificate of Conformity"
+                                        },
+                                        {
+                                            "key": "Certificate of Health",
+                                            "value": "Certificate of Health"
+                                        },
+                                        {
+                                            "key": "Certificate of Movement",
+                                            "value": "Certificate of Movement"
+                                        },
+                                        {
+                                            "key": "Certificate of Origin",
+                                            "value": "Certificate of Origin"
+                                        },
+                                        {
+                                            "key": "Certificate of Phytosanitary",
+                                            "value": "Certificate of Phytosanitary"
+                                        },
+                                        {
+                                            "key": "Certificate of Quality",
+                                            "value": "Certificate of Quality"
+                                        },
+                                        {
+                                            "key": "Certificate of Quantity",
+                                            "value": "Certificate of Quantity"
+                                        },
+                                        {
+                                            "key": "Certificate of Weight",
+                                            "value": "Certificate of Weight"
+                                        },
+                                        {
+                                            "key": "Commercial Invoice",
+                                            "value": "Commercial Invoice"
+                                        },
+                                        {
+                                            "key": "Courier - Transport Document",
+                                            "value": "Courier - Transport Document"
+                                        },
+                                        {
+                                            "key": "Client Correspondence",
+                                            "value": "Client Correspondence"
+                                        },
+                                        {
+                                            "key": "Customs Invoice",
+                                            "value": "Customs Invoice"
+                                        },
+                                        {
+                                            "key": "Cover letter",
+                                            "value": "Cover letter"
+                                        },
+                                        {
+                                            "key": "Cover Sheet",
+                                            "value": "Cover Sheet"
+                                        },
+                                        {
+                                            "key": "Discrepancy Response/Notification",
+                                            "value": "Discrepancy Response/Notification"
+                                        },
+                                        {
+                                            "key": "Export LC Advise",
+                                            "value": "Export LC Advise"
+                                        },
+                                        {
+                                            "key": "Export LC Amend Advise",
+                                            "value": "Export LC Amend Advise"
+                                        },
+                                        {
+                                            "key": "ELC DocP Application form",
+                                            "value": "ELC DocP Application form"
+                                        },
+                                        {
+                                            "key": "ILC DOCP Application Form",
+                                            "value": "ILC DOCP Application Form"
+                                        },
+                                        {
+                                            "key": "Internal Adjustment",
+                                            "value": "Internal Adjustment"
+                                        },
+                                        {
+                                            "key": "Import LC Adjustment Application",
+                                            "value": "Import LC Adjustment Application"
+                                        },
+                                        {
+                                            "key": "Import LC Amendment Application",
+                                            "value": "Import LC Amendment Application"
+                                        },
+                                        {
+                                            "key": "Import LC Application",
+                                            "value": "Import LC Application"
+                                        },
+                                        {
+                                            "key": "Freight Certificate",
+                                            "value": "Freight Certificate"
+                                        },
+                                        {
+                                            "key": "Fumigation Certificate",
+                                            "value": "Fumigation Certificate"
+                                        },
+                                        {
+                                            "key": "File Documents",
+                                            "value": "File Documents"
+                                        },
+                                        {
+                                            "key": "FIDB - Application Form",
+                                            "value": "FIDB - Application Form"
+                                        },
+                                        {
+                                            "key": "ORM - Application Form",
+                                            "value": "ORM - Application Form"
+                                        },
+                                        {
+                                            "key": "Bill of Entry",
+                                            "value": "Bill of Entry"
+                                        },
+                                        {
+                                            "key": "Form 15CA",
+                                            "value": "Form 15CA"
+                                        },
+                                        {
+                                            "key": "Form 15CB",
+                                            "value": "Form 15CB"
+                                        },
+                                        {
+                                            "key": "Declaration in lieu of Bill of Entry",
+                                            "value": "Declaration in lieu of Bill of Entry"
+                                        },
+                                        {
+                                            "key": "LC / Amendment",
+                                            "value": "LC / Amendment"
+                                        },
+                                        {
+                                            "key": "Inspection Certificate",
+                                            "value": "Inspection Certificate"
+                                        },
+                                        {
+                                            "key": "Insurance Certificate",
+                                            "value": "Insurance Certificate"
+                                        },
+                                        {
+                                            "key": "Insurance Cover Note",
+                                            "value": "Insurance Cover Note"
+                                        },
+                                        {
+                                            "key": "Insurance Policy",
+                                            "value": "Insurance Policy"
+                                        },
+                                        {
+                                            "key": "Loan Request",
+                                            "value": "Loan Request"
+                                        },
+                                        {
+                                            "key": "Mill Test Certificate",
+                                            "value": "Mill Test Certificate"
+                                        },
+                                        {
+                                            "key": "Non Radio Active Certificate",
+                                            "value": "Non Radio Active Certificate"
+                                        },
+                                        {
+                                            "key": "Packing List",
+                                            "value": "Packing List"
+                                        },
+                                        {
+                                            "key": "Remittance Letter",
+                                            "value": "Remittance Letter"
+                                        },
+                                        {
+                                            "key": "Shipment Advice",
+                                            "value": "Shipment Advice"
+                                        },
+                                        {
+                                            "key": "STAL Charge Adjust",
+                                            "value": "STAL Charge Adjust"
+                                        },
+                                        {
+                                            "key": "Test Certificate",
+                                            "value": "Test Certificate"
+                                        },
+                                        {
+                                            "key": "Transfer LC Issuance Request",
+                                            "value": "Transfer LC Issuance Request"
+                                        },
+                                        {
+                                            "key": "Shipping Certificate",
+                                            "value": "Shipping Certificate"
+                                        },
+                                        {
+                                            "key": "Guarantee Certificate",
+                                            "value": "Guarantee Certificate"
+                                        },
+                                        {
+                                            "key": "Compliance Certificate",
+                                            "value": "Compliance Certificate"
+                                        },
+                                        {
+                                            "key": "Log List",
+                                            "value": "Log List"
+                                        },
+                                        {
+                                            "key": "Settlement Advice",
+                                            "value": "Settlement Advice"
+                                        },
+                                        {
+                                            "key": "STAL Correspondence",
+                                            "value": "STAL Correspondence"
+                                        },
+                                        {
+                                            "key": "STAL Funds Adjust",
+                                            "value": "STAL Funds Adjust"
+                                        },
+                                        {
+                                            "key": "Delivery Note",
+                                            "value": "Delivery Note"
+                                        },
+                                        {
+                                            "key": "Weight Note",
+                                            "value": "Weight Note"
+                                        },
+                                        {
+                                            "key": "Shipping Document",
+                                            "value": "Shipping Document"
+                                        },
+                                        {
+                                            "key": "Radiation Certificate",
+                                            "value": "Radiation Certificate"
+                                        },
+                                        {
+                                            "key": "Seaway Bill",
+                                            "value": "Seaway Bill"
+                                        },
+                                        {
+                                            "key": "Road Transport Document",
+                                            "value": "Road Transport Document"
+                                        },
+                                        {
+                                            "key": "Lorry Receipt",
+                                            "value": "Lorry Receipt"
+                                        },
+                                        {
+                                            "key": "Truck Receipt",
+                                            "value": "Truck Receipt"
+                                        },
+                                        {
+                                            "key": "EUR1",
+                                            "value": "EUR1"
+                                        },
+                                        {
+                                            "key": "RWB",
+                                            "value": "RWB"
+                                        },
+                                        {
+                                            "key": "SGS Certificate",
+                                            "value": "SGS Certificate"
+                                        },
+                                        {
+                                            "key": "Specification List",
+                                            "value": "Specification List"
+                                        },
+                                        {
+                                            "key": "Technical Manual",
+                                            "value": "Technical Manual"
+                                        },
+                                        {
+                                            "key": "Transport Document",
+                                            "value": "Transport Document"
+                                        },
+                                        {
+                                            "key": "CMR",
+                                            "value": "CMR"
+                                        },
+                                        {
+                                            "key": "Commissioning Certificate",
+                                            "value": "Commissioning Certificate"
+                                        },
+                                        {
+                                            "key": "Courier Receipt",
+                                            "value": "Courier Receipt"
+                                        },
+                                        {
+                                            "key": "Customs Receipt",
+                                            "value": "Customs Receipt"
+                                        },
+                                        {
+                                            "key": "Forwarder's Cargo Receipt",
+                                            "value": "Forwarder's Cargo Receipt"
+                                        },
+                                        {
+                                            "key": "Beneficiary Simple Certificate",
+                                            "value": "Beneficiary Simple Certificate"
+                                        },
+                                        {
+                                            "key": "Certificate of Value",
+                                            "value": "Certificate of Value"
+                                        },
+                                        {
+                                            "key": "Certificate of Warranty",
+                                            "value": "Certificate of Warranty"
+                                        },
+                                        {
+                                            "key": "Weight List",
+                                            "value": "Weight List"
+                                        },
+                                        {
+                                            "key": "Proforma Invoice",
+                                            "value": "Proforma Invoice"
+                                        },
+                                        {
+                                            "key": "Provisional Invoice",
+                                            "value": "Provisional Invoice"
+                                        },
+                                        {
+                                            "key": "Charter Party Bill of Lading",
+                                            "value": "Charter Party Bill of Lading"
+                                        },
+                                        {
+                                            "key": "Non-Negotiable Seaway Bill",
+                                            "value": "Non-Negotiable Seaway Bill"
+                                        },
+                                        {
+                                            "key": "Multimodal Bill of Lading",
+                                            "value": "Multimodal Bill of Lading"
+                                        },
+                                        {
+                                            "key": "Declaration",
+                                            "value": "Declaration"
+                                        },
+                                        {
+                                            "key": "Statement",
+                                            "value": "Statement"
+                                        },
+                                        {
+                                            "key": "Other",
+                                            "value": "Other"
+                                        },
+                                        {
+                                            "key": "Declaration under an open cover/Policy",
+                                            "value": "Declaration under an open cover/Policy"
+                                        },
+                                        {
+                                            "key": "Promissory Note",
+                                            "value": "Promissory Note"
+                                        },
+                                        {
+                                            "key": "Credit Note",
+                                            "value": "Credit Note"
+                                        },
+                                        {
+                                            "key": "Debit Note",
+                                            "value": "Debit Note"
+                                        },
+                                        {
+                                            "key": "Mate's Receipt",
+                                            "value": "Mate's Receipt"
+                                        },
+                                        {
+                                            "key": "Railway Bill",
+                                            "value": "Railway Bill"
+                                        },
+                                        {
+                                            "key": "Inland Seaway Bill",
+                                            "value": "Inland Seaway Bill"
+                                        },
+                                        {
+                                            "key": "Post Receipt",
+                                            "value": "Post Receipt"
+                                        },
+                                        {
+                                            "key": "CCVO (Combined Certificate of Value and Origin)",
+                                            "value": "CCVO (Combined Certificate of Value and Origin)"
+                                        },
+                                        {
+                                            "key": "Shippers Certificate",
+                                            "value": "Shippers Certificate"
+                                        },
+                                        {
+                                            "key": "Agent Certificate",
+                                            "value": "Agent Certificate"
+                                        },
+                                        {
+                                            "key": "Carrier Certificate",
+                                            "value": "Carrier Certificate"
+                                        },
+                                        {
+                                            "key": "Certificate of Acceptance",
+                                            "value": "Certificate of Acceptance"
+                                        },
+                                        {
+                                            "key": "Certificate of Compliance",
+                                            "value": "Certificate of Compliance"
+                                        },
+                                        {
+                                            "key": "Certificate of Material",
+                                            "value": "Certificate of Material"
+                                        },
+                                        {
+                                            "key": "Certificate of Posting",
+                                            "value": "Certificate of Posting"
+                                        },
+                                        {
+                                            "key": "Letter of Indemnity",
+                                            "value": "Letter of Indemnity"
+                                        },
+                                        {
+                                            "key": "Sanitary Certificate",
+                                            "value": "Sanitary Certificate"
+                                        },
+                                        {
+                                            "key": "Manufacturer Certificate",
+                                            "value": "Manufacturer Certificate"
+                                        },
+                                        {
+                                            "key": "Halal Certificate",
+                                            "value": "Halal Certificate"
+                                        },
+                                        {
+                                            "key": "Radioactivity Certificate",
+                                            "value": "Radioactivity Certificate"
+                                        },
+                                        {
+                                            "key": "Export License Certificate",
+                                            "value": "Export License Certificate"
+                                        },
+                                        {
+                                            "key": "Cargo Manifest",
+                                            "value": "Cargo Manifest"
+                                        },
+                                        {
+                                            "key": "Email Advice",
+                                            "value": "Email Advice"
+                                        },
+                                        {
+                                            "key": "Fax Transmission report",
+                                            "value": "Fax Transmission report"
+                                        },
+                                        {
+                                            "key": "Inspection Report",
+                                            "value": "Inspection Report"
+                                        },
+                                        {
+                                            "key": "Notice of Readiness",
+                                            "value": "Notice of Readiness"
+                                        },
+                                        {
+                                            "key": "Report of loading",
+                                            "value": "Report of loading"
+                                        },
+                                        {
+                                            "key": "Shore Tanks Quantity Report",
+                                            "value": "Shore Tanks Quantity Report"
+                                        },
+                                        {
+                                            "key": "Test Report",
+                                            "value": "Test Report"
+                                        },
+                                        {
+                                            "key": "Bank Guarantee",
+                                            "value": "Bank Guarantee"
+                                        },
+                                        {
+                                            "key": "Cargo Calculation Quantity Report",
+                                            "value": "Cargo Calculation Quantity Report"
+                                        },
+                                        {
+                                            "key": "HACCP Certificate",
+                                            "value": "HACCP Certificate"
+                                        },
+                                        {
+                                            "key": "Loading Time Sheet",
+                                            "value": "Loading Time Sheet"
+                                        },
+                                        {
+                                            "key": "Platts Quotations",
+                                            "value": "Platts Quotations"
+                                        },
+                                        {
+                                            "key": "Shipping Marks",
+                                            "value": "Shipping Marks"
+                                        },
+                                        {
+                                            "key": "Statements of Facts",
+                                            "value": "Statements of Facts"
+                                        },
+                                        {
+                                            "key": "Expense Report",
+                                            "value": "Expense Report"
+                                        },
+                                        {
+                                            "key": "Certificate",
+                                            "value": "Certificate"
+                                        },
+                                        {
+                                            "key": "FOSFA Combined Master Certificate",
+                                            "value": "FOSFA Combined Master Certificate"
+                                        },
+                                        {
+                                            "key": "Cleanliness Certificate",
+                                            "value": "Cleanliness Certificate"
+                                        },
+                                        {
+                                            "key": "Letter of Authority",
+                                            "value": "Letter of Authority"
+                                        },
+                                        {
+                                            "key": "Survey Report",
+                                            "value": "Survey Report"
+                                        },
+                                        {
+                                            "key": "Sales Contract",
+                                            "value": "Sales Contract"
+                                        },
+                                        {
+                                            "key": "Certificate of Sustainability",
+                                            "value": "Certificate of Sustainability"
+                                        },
+                                        {
+                                            "key": "Surveyor Report",
+                                            "value": "Surveyor Report"
+                                        },
+                                        {
+                                            "key": "Shipping Bill",
+                                            "value": "Shipping Bill"
+                                        },
+                                        {
+                                            "key": "Container Manifest",
+                                            "value": "Container Manifest"
+                                        },
+                                        {
+                                            "key": "Shipping Company Certificate",
+                                            "value": "Shipping Company Certificate"
+                                        }
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "date_of_signature": [
+                            {
+                                "metadata": {
+                                    "display_name": "Date of Signature",
+                                    "key": "date_of_signature",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "datetime",
+                                    "rule_type": "date",
+                                    "field_order": 136,
+                                    "compliance_category": null,
+                                    "field_id": "b60ead14-7925-4eb9-bf0f-8e03b92f5e06"
+                                },
+                                "value": null
+                            }
+                        ],
+                        "legalized": [
+                            {
+                                "metadata": {
+                                    "display_name": "Legalized/visaed/certified as per LC",
+                                    "key": "legalized",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "boolean",
+                                    "rule_type": "boolean",
+                                    "field_order": 141,
+                                    "compliance_category": null,
+                                    "field_id": "2af64412-c17e-42e2-bae8-d861e599d97d",
+                                    "options": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "correction_with_sign_seal": [
+                            {
+                                "metadata": {
+                                    "display_name": "Correction",
+                                    "key": "correction_with_sign_seal",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "options",
+                                    "rule_type": "string",
+                                    "field_order": 138,
+                                    "compliance_category": null,
+                                    "field_id": "4c85b119-7aa4-45c6-a707-f1305d6197fa",
+                                    "options": [
+                                        {
+                                            "key": "with stamp",
+                                            "value": "with stamp"
+                                        },
+                                        {
+                                            "key": "with name and signature",
+                                            "value": "with name and signature"
+                                        }
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "correction_evidenced": [
+                            {
+                                "metadata": {
+                                    "display_name": "Correction Evidenced",
+                                    "key": "correction_evidenced",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "boolean",
+                                    "rule_type": "boolean",
+                                    "field_order": 142,
+                                    "compliance_category": null,
+                                    "field_id": "f239ad93-dc27-4a87-9c06-342eb8b8fd9b",
+                                    "options": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "correction_authenticated_by": [
+                            {
+                                "metadata": {
+                                    "display_name": "Correction Authenticated By",
+                                    "key": "correction_authenticated_by",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "options",
+                                    "rule_type": "string",
+                                    "field_order": 143,
+                                    "compliance_category": "IND",
+                                    "field_id": "8e16fdec-1ea1-4a44-9d3c-f369a73c3522",
+                                    "label": "Correction Authenticated By",
+                                    "options": [
+                                        {
+                                            "key": "Beneficiary",
+                                            "value": "Beneficiary"
+                                        },
+                                        {
+                                            "key": "Proxy",
+                                            "value": "Proxy"
+                                        },
+                                        {
+                                            "key": "Agent",
+                                            "value": "Agent"
+                                        },
+                                        {
+                                            "key": "Carrier",
+                                            "value": "Carrier"
+                                        },
+                                        {
+                                            "key": "Master",
+                                            "value": "Master"
+                                        },
+                                        {
+                                            "key": "Captain",
+                                            "value": "Captain"
+                                        },
+                                        {
+                                            "key": "Charterer",
+                                            "value": "Charterer"
+                                        },
+                                        {
+                                            "key": "Underwriter",
+                                            "value": "Underwriter"
+                                        },
+                                        {
+                                            "key": "Agent/Proxy on behalf of Underwriter",
+                                            "value": "Agent/Proxy on behalf of Underwriter"
+                                        },
+                                        {
+                                            "key": "Agent/Proxy on behalf of Insurance Company",
+                                            "value": "Agent/Proxy on behalf of Insurance Company"
+                                        },
+                                        {
+                                            "key": "Owner",
+                                            "value": "Owner"
+                                        },
+                                        {
+                                            "key": "Named Agent on behalf of Carrier",
+                                            "value": "Named Agent on behalf of Carrier"
+                                        },
+                                        {
+                                            "key": "Named Agent on behalf of Master",
+                                            "value": "Named Agent on behalf of Master"
+                                        },
+                                        {
+                                            "key": "Named Agent on behalf of Owner",
+                                            "value": "Named Agent on behalf of Owner"
+                                        },
+                                        {
+                                            "key": "Named Agent on behalf of Captain",
+                                            "value": "Named Agent on behalf of Captain"
+                                        },
+                                        {
+                                            "key": "Named Agent on behalf of Charterer",
+                                            "value": "Named Agent on behalf of Charterer"
+                                        },
+                                        {
+                                            "key": "Named Agent",
+                                            "value": "Named Agent"
+                                        },
+                                        {
+                                            "key": "Other",
+                                            "value": "Other"
+                                        },
+                                        {
+                                            "key": "Legalized/visaed/certified Entity",
+                                            "value": "Legalized/visaed/certified Entity"
+                                        },
+                                        {
+                                            "key": "Insurance Company",
+                                            "value": "Insurance Company"
+                                        }
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "inspection_evidenced": [
+                            {
+                                "metadata": {
+                                    "display_name": "Inspection Evidenced",
+                                    "key": "inspection_evidenced",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "boolean",
+                                    "rule_type": "boolean",
+                                    "field_order": 128,
+                                    "compliance_category": null,
+                                    "field_id": "6ab44c43-270d-4785-a87f-8a0fffedac3d",
+                                    "options": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                "value": null
+                            }
+                        ],
+                        "total_gross_amount": [
+                            {
+                                "metadata": {
+                                    "display_name": "Gross Amount",
+                                    "key": "total_gross_amount",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 135,
+                                    "compliance_category": null,
+                                    "field_id": "f135e636-dba9-4a4a-9858-7cbe0f0e3382"
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "c540eadd-34f9-4fee-aaa5-9f83fc1c411c",
+                                        "label": "Total Gross Amount - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "5ce85c91-bdf1-40a9-ab4b-096d24e0b15d",
+                                        "label": "Total Gross Amount - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "deductions": [
+                            {
+                                "metadata": {
+                                    "display_name": "Deductions",
+                                    "key": "deductions",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "amount",
+                                    "field_order": 140,
+                                    "compliance_category": null,
+                                    "field_id": "24de6891-0040-48c2-b59e-3843a6e2a884"
+                                },
+                                "total": {
+                                    "metadata": {
+                                        "display_name": "Amount",
+                                        "key": "amount",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "decimal",
+                                        "rule_type": "amount",
+                                        "field_order": 10,
+                                        "compliance_category": null,
+                                        "field_id": "f0b2d9da-b85b-4d9e-a0af-7cea1222fc0b",
+                                        "label": "Deductions - Amount"
+                                    },
+                                    "value": null
+                                },
+                                "currency": {
+                                    "metadata": {
+                                        "display_name": "Currency",
+                                        "key": "currency",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": null,
+                                        "field_id": "ea7c8814-7cff-470f-93e0-1a842b1b565a",
+                                        "label": "Deductions - Currency"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "formerly_known_as": [
+                            {
+                                "metadata": {
+                                    "display_name": "Formerly Known As",
+                                    "key": "formerly_known_as",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "object",
+                                    "rule_type": "name_address",
+                                    "field_order": 145,
+                                    "compliance_category": "CORP",
+                                    "field_id": "8512e4cf-147b-4e10-bef3-48868baa740a",
+                                    "is_mandatory": true
+                                },
+                                "name": {
+                                    "metadata": {
+                                        "display_name": "Name",
+                                        "key": "name",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 5,
+                                        "compliance_category": "CORP",
+                                        "field_id": "26c6910b-247e-48e1-85ef-d7b459836420",
+                                        "label": "Formerly Known As - Name"
+                                    },
+                                    "value": null
+                                },
+                                "address": {
+                                    "metadata": {
+                                        "display_name": "Address",
+                                        "key": "address",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 10,
+                                        "compliance_category": "LOC",
+                                        "field_id": "8e6eaede-d617-4867-930f-37ddf02d1585",
+                                        "label": "Formerly Known As - Address"
+                                    },
+                                    "value": null
+                                },
+                                "country": {
+                                    "metadata": {
+                                        "display_name": "Country",
+                                        "key": "country",
+                                        "is_empty": true,
+                                        "confidence": 0,
+                                        "words": [],
+                                        "auto_extracted": false,
+                                        "field_type": "text",
+                                        "rule_type": null,
+                                        "field_order": 15,
+                                        "compliance_category": "LOC",
+                                        "field_id": "bbdad734-44cb-4a66-b519-76fa28a14f38",
+                                        "label": "Formerly Known As - Country"
+                                    },
+                                    "value": null
+                                }
+                            }
+                        ],
+                        "signed_by": [
+                            {
+                                "metadata": {
+                                    "display_name": "Signed By",
+                                    "key": "signed_by",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "text",
+                                    "rule_type": "string",
+                                    "field_order": 150,
+                                    "compliance_category": "CORP",
+                                    "field_id": "532b9dc2-ff6e-43fa-9540-f97cfea41bb6",
+                                    "label": "Signed By"
+                                },
+                                "value": null
+                            }
+                        ],
+                        "proforma_invoice": [
+                            {
+                                "metadata": {
+                                    "display_name": "Proforma Invoice",
+                                    "key": "proforma_invoice",
+                                    "is_empty": true,
+                                    "confidence": 0,
+                                    "words": [],
+                                    "auto_extracted": false,
+                                    "field_type": "collection",
+                                    "rule_type": "select",
+                                    "field_order": 150,
+                                    "compliance_category": null,
+                                    "field_id": "c26aa41c-e480-4547-8d00-18da8e5fcc64",
+                                    "is_mandatory": true
+                                },
+                                "value": null
+                            }
+                        ]
+                    },
+                    "extraction_result_id": 112939,
+                    "classification_id": 154662
+                }
+            ],
+            "page_paths": [
+                {
+                    "page_no": 1,
+                    "image_path": "99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/IMAGES/count-1_page-1_IMAGE_ROTATED.jpeg",
+                    "thumbnail_path": "99ec65c949f068ba2d1ab76d31944e3b747d8c8b/211ddaad-8376-4001-9b09-575510bcd1d1/THUMBNAILS/count-1_page-1_IMAGE_THUMB.jpeg"
+                }
+            ],
+            "linked_documents": []
+        }
+    ]
+}
